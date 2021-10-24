@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.welcome_landing_page {
+  background: #149b26;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.login_content img {
+  height: 100px;
+  margin-bottom: 30px;
+}
+.login_content h1 {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.login_content h2 {
+  font-size: 30px;
+  margin: 20px 0 50px;
+}
+.login_content select {
+  height: 50px;
+  width: 420px;
+  font-size: 24px;
+  text-align: center;
+  color: #c1bdbd;
+}
+.login_content form {
+  display: flex;
+  justify-content: center;
+}
+.login_content input {
+  height: 50px;
+  width: 420px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  color: #29a74a !important;
+}
+::placeholder {
+  font-weight: 600;
+}
+.search {
+  position: relative;
+}
+.search a {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 20px;
+  color: #149b26;
+}
+
+@media (max-width: 575.98px) {
+  .login_content img {
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  .login_content h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .login_content h2 {
+    font-size: 16px;
+  }
+  .login_content select {
+    width: 280px;
+  }
+  .login_content input {
+    width: 280px;
+  }
+  .login_content h2 {
+    margin: 10px 0 20px;
+  }
+  .login_content input {
+    font-size: 16px;
+  }
+  .login_content select {
+    font-size: 18px;
+  }
+}
